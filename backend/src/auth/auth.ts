@@ -1,0 +1,18 @@
+import { betterAuth } from 'better-auth';
+import { drizzleAdapter } from 'better-auth/adapters/drizzle';
+import { drizzle } from 'drizzle-orm/node-postgres';
+import { Pool } from 'pg';
+
+if (!process.env.DATABASE_URL) {
+  throw new Error('DATABASE_URL environment variable is required');
+}
+
+const pool = new Pool({ connectionString: process.env.DATABASE_URL });
+const db = drizzle(pool);
+
+export const auth = betterAuth({
+  database: drizzleAdapter(db, { provider: 'pg' }),
+  emailAndPassword: {
+    enabled: true,
+  },
+});
