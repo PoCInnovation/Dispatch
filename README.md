@@ -69,7 +69,7 @@ Developers
 | :---: | :---: | :---: |
 
 Manager
-| [<img src="https://github.com/adrienfort.png?size=85" width=85><br><sub>Laurent Gonzalez</sub>](https://github.com/adrienfort)
+| [<img src="https://github.com/lg-epitech.png?size=85" width=85><br><sub>Laurent Gonzalez</sub>](https://github.com/lg-epitech)
 | :---: |
 
 <h2 align=center>
