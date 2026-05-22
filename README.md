@@ -1,22 +1,56 @@
 > If you see this section, you've just created a repository using [PoC Innovation's Open-Source project template](https://github.com/PoCInnovation/open-source-project-template). Check the [getting started guide](./.github/getting-started.md).
 
-# [PROJECT'S NAME]
+# DISPATCH
 
-[Project's description]
+Dispatch is a streamlined issue reporting platform designed to bridge the communication gap between non-technical users and developers. By pairing a simple screen-recording extension with an automated ticketing engine, Dispatch captures the exact context of a bug or feature request. It automatically translates visual feedback into a fully structured, developer-ready ticket and routes it to the right team member, closing the loop from bug discovery to resolution.
 
 ## How does it work?
 
-[Explain how this project is working]
+Dispatch simplifies the reporting pipeline into three automated steps:
+
+1. Capture: Users record their screen using our dedicated browser extension exactly when a bug occurs or a feature idea comes to mind, requiring zero technical vocabulary.
+
+2. Process: The platform analyzes the recording alongside the environment to extract the user's intent, identify hidden errors, and gather crucial technical context.
+
+3. Dispatch: A fully structured, developer-ready ticket is automatically generated (complete with the video and technical data) and routed directly to the correct team member based on the project's architecture.
 
 ## Getting Started
 
 ### Installation
 
-[Explain how to install all of the project's dependencies]
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/PoCInnovation/Dispatch.git
+   cd dispatch
+   ```
+
+4. **Set up your environnement**
+    Duplicate the example environment file in the backend directory to create your local configuration:
+    ```bash
+    cd backend
+    cp .env.example .env
+    ```
+
+    Ensure your local .env file contains the required database credentials:
+    ```bash
+    POSTGRES_DB=dispatch
+    POSTGRES_USER=dispatch
+    POSTGRES_PASSWORD=dispatch
+    ```
 
 ### Quickstart
 
-[Explain how to run this project]
+1. **Start the application :**
+    Run the following command at the root of the project to build the images and start the containers in the background:
+    ```bash
+    docker-compose up --build -d
+    ```
+
+2. **Access the services:**
+   Once the containers are running, the application will be available at:
+   * **Frontend (Web Interface):** [http://localhost:3000](http://localhost:3000)
+   * **Backend (API):** [http://localhost:3001](http://localhost:3001)
+   * **Database (PostgreSQL):** `localhost:5432`
 
 ### Usage
 
@@ -31,11 +65,11 @@ If you're interested in how the project is organized at a higher level, please c
 ## Our PoC team ❤️
 
 Developers
-| [<img src="https://github.com/MrZalTy.png?size=85" width=85><br><sub>[Developer's name]</sub>](https://github.com/MrZalTy) | [<img src="https://github.com/MrZalTy.png?size=85" width=85><br><sub>[Developer's name]</sub>](https://github.com/MrZalTy) | [<img src="https://github.com/MrZalTy.png?size=85" width=85><br><sub>[Developer's name]</sub>](https://github.com/MrZalTy)
-| :---: | :---: | :---: |
+| [<img src="https://github.com/LyesDjaoui.png?size=85" width=85><br><sub>LyesDjaoui</sub>](https://github.com/LyesDjaoui) | [<img src="https://github.com/lhnfe.png?size=85" width=85><br><sub>Lohan FERNANDES</sub>](https://github.com/lhnfe)
+| :---: | :---: |
 
 Manager
-| [<img src="https://github.com/adrienfort.png?size=85" width=85><br><sub>[Manager's name]</sub>](https://github.com/adrienfort)
+| [<img src="https://github.com/lg-epitech.png?size=85" width=85><br><sub>Laurent Gonzalez</sub>](https://github.com/lg-epitech)
 | :---: |
 
 <h2 align=center>
