@@ -65,8 +65,8 @@ If you're interested in how the project is organized at a higher level, please c
 ## Our PoC team ❤️
 
 Developers
-| [<img src="https://github.com/LyesDjaoui.png?size=85" width=85><br><sub>LyesDjaoui</sub>](https://github.com/LyesDjaoui) | [<img src="https://github.com/lhnfe.png?size=85" width=85><br><sub>Lohan FERNANDES</sub>](https://github.com/lhnfe) | [<img src="https://github.com/MrZalTy.png?size=85" width=85><br><sub>Laurent Gonzalez</sub>](https://github.com/MrZalTy)
-| :---: | :---: | :---: |
+| [<img src="https://github.com/LyesDjaoui.png?size=85" width=85><br><sub>LyesDjaoui</sub>](https://github.com/LyesDjaoui) | [<img src="https://github.com/lhnfe.png?size=85" width=85><br><sub>Lohan FERNANDES</sub>](https://github.com/lhnfe)
+| :---: | :---: |
 
 Manager
 | [<img src="https://github.com/lg-epitech.png?size=85" width=85><br><sub>Laurent Gonzalez</sub>](https://github.com/lg-epitech)
