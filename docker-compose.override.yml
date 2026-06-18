@@ -2,7 +2,7 @@ services:
   backend:
     build:
       context: ./backend
-      target: prod
+      #target: prod
     ports:
       - "3001:3000"
     environment:
